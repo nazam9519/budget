@@ -1,0 +1,5 @@
+- name: "Installing necessary software"
+  apt: name=apache2 
+       state=present 
+       install-recommends=no
+       update-cache=yes
