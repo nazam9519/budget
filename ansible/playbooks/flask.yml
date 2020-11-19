@@ -1,0 +1,6 @@
+- name: postgres playbook
+  hosts: pi
+  become: true
+  remote_user: nabil
+  roles: 
+  - '../roles/flask'

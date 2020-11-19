@@ -1,0 +1,10 @@
+- name: Install python stuff
+  pip:
+      name: virtualenv
+      executable: pip3
+
+- name: full flask 
+  pip:
+      name: flask
+      virtualenv: /usr/local/src/budget/
+      virtualenv_site_packages: yes
