@@ -1,0 +1,14 @@
+command syntax i always seem to forget:
+
+scp -P <port> <user>@<ip>:<path to file> <path to local> (copies from remote to local)
+
+service <servicename> status/restart/stop/start (wrapper for systemctl commands)
+systemctl status/reload/restart/stop/start <servicename> (systemd daemon commands)
+
+psql (launches postgres shell)
+psql -d <db_name> (launches user level postgres shell into db)
+
+git add .
+git commit -m 
+git push origin master (or whatever branch)
+
