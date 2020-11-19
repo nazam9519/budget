@@ -1,8 +1,0 @@
-- name: postgres playbook
-  hosts: pi
-  become: true
-  remote_user: nabil
-  vars_files:
-      - ../roles/budget/vars/main.yml
-  roles: 
-  - budget

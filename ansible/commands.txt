@@ -1,0 +1,5 @@
+ansible-playbook <path to playbook> --syntax-check
+ansible-playbook <path to playbook> --check
+
+ansible-playbook <path> --tags "tags" <- runs specific tags
+
