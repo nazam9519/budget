@@ -1,0 +1,15 @@
+In /etc/apache2/sites-enabled
+
+added in a new config file
+
+<VirtualHost *:80>
+        ServerName <ip>
+        WSGIScriptAlias /test /var/www/flaskapp/flaskapp.wsgi <= defines URL route
+        <Directory /var/www/flaskapp>
+                Order allow,deny
+                Allow from all
+        </Directory>
+        ErrorLog /var/log/apacheerror.log
+        LogLevel warn
+        CustomLog /var/log/apaccess.log combined
+</VirtualHost>
