@@ -1,0 +1,1 @@
+setfacl -m u:USER:--- <file name> (prevents access to dir/file)
