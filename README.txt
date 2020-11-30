@@ -23,4 +23,5 @@ pip3 packages:
 		pip3 install psycopg2-binary==2.8.6 <-- must specify binary version 
 
 
-python -m venv
+python -m venv <project>
+source <project>/bin/activate
