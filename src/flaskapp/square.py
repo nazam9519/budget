@@ -1,4 +1,4 @@
-from flask import Flask, request, abort, jsonify, Blueprint
+from flask import Flask, request, abort, jsonify, Blueprint, current_app
 
 #taken from  flask post example found on MEDIUM
 #11/18/2020 customized to work with apache2 and blueprint

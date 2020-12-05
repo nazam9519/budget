@@ -11,4 +11,8 @@ psql -d <db_name> (launches user level postgres shell into db)
 git add .
 git commit -m 
 git push origin master (or whatever branch)
+git branch <new branch>
+git checkout <branch>
 
+chmod 2775 <--set's group sticky bit
+setfacl -R -d -m g::rwx <path to dir> <--acl defaults
